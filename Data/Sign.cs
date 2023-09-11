@@ -37,6 +37,10 @@ namespace LDC.EnoaLibrary.Data
         /// Провал
         /// </summary>
         public string? Failure { get; set; }
+        /// <summary>
+        /// Сложность
+        /// </summary>
+        public byte Difficult { get; set; }
 
         // Звери кочевников
         public byte Bunti { get; set; }
